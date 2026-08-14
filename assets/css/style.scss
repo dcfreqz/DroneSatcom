@@ -3,10 +3,11 @@
 @import "{{ site.theme }}";
 
 body {
-    font-size: 18px; /* Aumenta el tamaño base de la letra */
+    font-size: 18px;
 }
 
-.wrapper, .container {
-    max-width: 1000px; /* Hace que la columna de lectura sea más ancha */
-    width: 90%;
+.wrapper, .container, section {
+    max-width: 1000px !important;
+    width: 90% !important;
+    margin: 0 auto !important; 
 }
