@@ -1,0 +1,12 @@
+---
+---
+@import "{{ site.theme }}";
+
+body {
+    font-size: 18px; /* Aumenta el tamaño base de la letra */
+}
+
+.wrapper, .container {
+    max-width: 1000px; /* Hace que la columna de lectura sea más ancha */
+    width: 90%;
+}
